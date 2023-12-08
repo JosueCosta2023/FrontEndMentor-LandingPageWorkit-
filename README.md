@@ -9,12 +9,10 @@ Está é minha solução para o desafio [Workit landing page challenge on Fronte
 ![Desktop version](./assets/designer/desktop.png)
 ![Mobile version](./assets/designer/smartphone.png)
 
-
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Github: [Page](https://josuecosta2023.github.io/LandingPageWorkit-FrontendMentor/)
+- Github: [Repositório](https://github.com/JosueCosta2023/LandingPageWorkit-FrontendMentor)
 
 ## Meu processo
 
