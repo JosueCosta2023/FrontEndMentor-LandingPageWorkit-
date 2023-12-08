@@ -1,0 +1,108 @@
+footer{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.container{
+    width:100% ;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .footer-content{
+    width: 1100px;
+    height: 547px;
+    margin-top: 110px;
+    position: relative;
+}
+
+.container .footer-content .imagem-perfil{
+    width: 447px;
+}
+
+.container .footer-content .conteudo{
+    width: 730px;
+    height: 413px;
+    background-color: #24053E;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 64px 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.container .footer-content .conteudo .footer-titulo{
+    font-size: 5.6rem;
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    color: white;
+}
+
+.container .footer-content .conteudo .footer-texto{
+    font-size: 1.8rem;
+    color: white;
+    font-family: 'Manrope', sans-serif;
+}
+
+.container .footer-content .conteudo .img3{
+    position: absolute;
+    right: 0;
+    bottom: -50px;  
+}
+
+.container .footer-content .conteudo .menuLinkFooter{
+    background-color: #44FFA1;
+    color: #24053E;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.8rem;   
+    width: 190px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+
+.container .footer-content .conteudo .menuLinkFooter:hover{
+    background-color: #24053E;
+    border: 2px solid #44FFA1;
+    color: #44FFA1;
+}
+
+.container .social{
+    width: 116px;
+    height: 102px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    bottom: 0;
+    margin-top: 200px;
+    margin-bottom: 60px;
+}
+
+.container .social .links-social{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.container .social .links-social .logo-footer{
+    width: 95px;
+}
+
+
+.container .social .links-social i{
+    font-size: 20px;
+    color: gray;
+}
+
+.container .social .links-social i:hover{
+    color: #24053E;
+    cursor: pointer;
+}
+

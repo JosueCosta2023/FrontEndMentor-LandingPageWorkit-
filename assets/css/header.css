@@ -1,0 +1,128 @@
+html{
+    font-size: 62.5%;
+}
+
+
+body{
+    min-height: 100vh;
+}
+
+body header{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color:#FCF8FF;
+}
+
+header::before{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    width: 100vh;
+    height: 80vh;
+    left: 50%;
+    background-color: #24053E;
+    border-radius: 50%;
+    /* ???? */
+    transform-origin: bottom;
+    transform: translateX(-50%) scale(8);
+}
+
+
+
+.container-header{
+    min-width: 90%;
+    height: 80vh;
+    z-index: 2;
+    position: relative;
+}
+
+.container-header .logo-menu{
+    padding: 60px 144px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-header .logo-menu .logo{
+    width: 95px;
+    cursor: pointer;
+}
+.container-header .logo-menu .menuLink{
+    font-size: 1.8rem;
+    border-bottom: 3px solid #44FFA1;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.container-header .logo-menu .menuLink:hover{
+    color: #44FFA1;
+}
+
+header .molaImagem{
+    position: absolute;
+}
+
+header .molaImagem.img1{
+    left: 0;
+    top: 50px;
+}
+header .molaImagem.img2{
+    right: 0;
+    top: 300px;
+}
+
+.heroImagem{
+    position: absolute;
+    bottom: 20px;
+    z-index: 3;
+    width: 767px;
+    height: 300px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.container-header .conteudo-link{
+    margin: 0 auto;
+    width: 635px;
+    text-align: center;   
+}
+
+.container-header .conteudo-link .texto{
+    font-size: 80px;
+    font-weight: 600;
+    color: white;
+    font-family: 'Fraunces', serif;
+    margin-bottom: 40px;
+}
+
+.container-header .conteudo-link .linkSaibaMais{
+    font-family: 'Work Sans', sans-serif;
+    padding: 15px 30px;
+    background-color: #44FFA1;
+    font-size: 1.8rem;
+    color: #24053E;
+    font-weight: bold;
+}
+
+.container-header .conteudo-link .linkSaibaMais:hover{
+    background-color: #24053E;
+    border: 2px solid #44FFA1;
+    color: #44FFA1;
+}
+
+.container-header .conteudo-link span{
+    border-bottom: 3px solid #44FFA1;
+}
+
+
+
+
+
+
+
