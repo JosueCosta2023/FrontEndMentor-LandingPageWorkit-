@@ -2,7 +2,6 @@
 
 Está é minha solução para o desafio [Workit landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/workit-landing-page-2fYnyle5lu). 
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ### Screenshot
 
